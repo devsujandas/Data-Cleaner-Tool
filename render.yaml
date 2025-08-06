@@ -10,10 +10,9 @@ services:
 
   - type: web
     name: data-cleaner-frontend
-    env: node
+    env: static 
     buildCommand: "cd client && npm install && npm run build"
-    startCommand: "npx serve -s client/build"
-    staticPublishPath: client/build
+    staticPublishPath: client/build  
     envVars:
       - key: REACT_APP_BACKEND_URL
         value: https://data-cleaner-backend.onrender.com

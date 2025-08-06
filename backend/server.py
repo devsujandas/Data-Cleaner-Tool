@@ -58,8 +58,8 @@ class DataStatistics(BaseModel):
     numeric_stats: Dict[str, Dict[str, float]]
 
 # File storage (in production, use cloud storage)
-UPLOAD_DIR = Path("/tmp/data_cleaner_uploads")
-UPLOAD_DIR.mkdir(exist_ok=True)
+UPLOAD_DIR = ROOT_DIR / "tmp" / "data_cleaner_uploads"
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 # Utility functions
 def read_file_to_dataframe(file_path: str, file_type: str) -> pd.DataFrame:

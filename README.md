@@ -38,14 +38,25 @@ Whether you're a student, data scientist, analyst, or business user — this app
 
 ## Built With
 
-- **Next.js 14**  
-- **TypeScript**  
-- **Tailwind CSS**  
-- **React Context API / Redux**  
-- **Papaparse & SheetJS** (file parsing)  
-- **Framer Motion** (animations)  
+**Frontend:**
+HTML5, CSS3, JavaScript (ES6+)
 
----
+Tailwind CSS – for fast, responsive UI design
+
+Framer Motion – for smooth animations
+
+**Backend**
+Python – core backend logic
+
+FastAPI – high-performance web framework
+
+Pandas – data cleaning and transformation
+
+Uvicorn – ASGI server for FastAPI apps
+
+**Database:**
+MongoDB – NoSQL database to store files or user actions 
+
 
 ## How It Works
 

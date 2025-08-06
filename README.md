@@ -1,106 +1,75 @@
-<h1 align="center" style="font-size: 56px; font-weight: 900; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e3a8a; margin-bottom: 0;">
-  Data Cleaner Tool 🧹
-</h1>
+<h1 align="center" style="font-size: 56px; font-weight: 900; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e3a8a; margin-bottom: 0;"> Data Cleaner Tool </h1> <p align="center" style="font-size: 20px; font-weight: 700; color: #3b82f6; margin-top: 4px;"> AI-Driven Modern Web App for Seamless Data Cleaning and Transformation </p> <p align="center" style="margin: 20px 0 40px;"> <a href="https://datacleaner-sujan.vercel.app/" target="_blank" style="background: linear-gradient(90deg, #3b82f6, #2563eb); color: white; padding: 12px 28px; border-radius: 9999px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);"> Live Demo </a> </p>
+Overview
+Data Cleaner Tool is a full-featured web application designed to streamline the process of cleaning and transforming messy datasets. It supports multiple file types including CSV, Excel, JSON, and TXT, and integrates AI-driven logic to automate repetitive data preparation tasks. With a modern glassmorphism UI, the tool is responsive, accessible, and intuitive to use.
 
-<p align="center" style="font-size: 20px; font-weight: 700; color: #3b82f6; margin-top: 4px;">
-  AI-Powered, Fast & Beautiful Web App for Effortless Data Cleaning
-</p>
+It is ideal for students, data analysts, researchers, and professionals working with large and unstructured datasets.
 
-<p align="center" style="margin: 20px 0 40px;">
-  <a href="https://datacleaner-sujan.vercel.app/" target="_blank" style="background: linear-gradient(90deg, #3b82f6, #2563eb); color: white; padding: 12px 28px; border-radius: 9999px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);">
-    🧪 Try the Live Demo
-  </a>
-</p>
+Key Capabilities
+Upload and merge multiple files
 
----
+Preview original and cleaned data instantly
 
-## About Data Cleaner Tool
+View file metadata (name, size, dimensions)
 
-**Data Cleaner Tool** is a modern web application designed to **automatically clean and transform CSV, Excel, JSON, or TXT datasets** using smart algorithms. Built using **Next.js 14, TypeScript, Tailwind CSS**, and **AI-powered logic**, it helps users handle messy data in seconds — all inside a clean and responsive glassmorphism interface.
+Smart AI-based cleaning: remove nulls, trim whitespace, normalize column names, deduplicate rows
 
-Whether you're a student, data scientist, analyst, or business user — this app will save your time and effort by automating repetitive cleaning tasks.
+Manual tools for find & replace, column renaming, data type conversion
 
----
+Export cleaned data in CSV or Excel formats
 
-## Core Features
+Dark and light mode support based on system preferences
 
-- ✅ **Multiple File Upload** (merge files if needed)  
-- ✅ **File Metadata** (name, size, rows, columns)  
-- ✅ **File Type Support** — `.csv`, `.xlsx`, `.json`, `.txt`  
-- ✅ **AI Data Cleaning** — remove empty rows, trim whitespace, normalize headers, remove duplicates  
-- ✅ **Find & Replace**, **Column Renaming**, and **Data Type Conversion**  
-- ✅ **Live Preview** — view raw and cleaned data before downloading  
-- ✅ **Export Options** — download cleaned dataset in preferred format  
-- ✅ **Responsive UI** — perfect on mobile, tablet, and desktop  
-- ✅ **Dark & Light Themes** — based on system preference  
+Fully responsive interface optimized for desktop and mobile
 
----
+Tech Stack
+Frontend
+Next.js 14 — Full-stack React framework
 
-## Built With
+TypeScript — Strongly typed JavaScript
 
-**Frontend:**
-HTML5, CSS3, JavaScript (ES6+)
+Tailwind CSS — Utility-first CSS framework for responsive UI
 
-Tailwind CSS – for fast, responsive UI design
+Framer Motion — Advanced animation library
 
-Framer Motion – for smooth animations
+React Context / Redux — State management
 
-**Backend**
-Python – core backend logic
+Papaparse & SheetJS — File parsing and handling
 
-FastAPI – high-performance web framework
+Backend
+FastAPI — High-performance Python web framework
 
-Pandas – data cleaning and transformation
+Pandas — Data analysis and transformation
 
-Uvicorn – ASGI server for FastAPI apps
+Uvicorn — ASGI server for FastAPI applications
 
-**Database:**
-MongoDB – NoSQL database to store files or user actions 
+Data Handling
+MongoDB — NoSQL database for storing file metadata and user actions
 
+Usage Workflow
+Upload — Select or drag & drop your dataset
 
-## How It Works
+Inspect — Preview the raw data structure
 
-1. **Upload Dataset** — Drag & drop or select a supported file  
-2. **Preview Raw Data** — See the original structure  
-3. **Select Cleaning Options** — Choose from AI cleaning or manual transformations  
-4. **Preview Cleaned Data** — Confirm your changes live  
-5. **Export File** — Download as `.csv` or `.xlsx`  
+Transform — Choose cleaning or transformation options
 
----
+Validate — View the cleaned result in real-time
 
-## Contact
+Download — Export your polished dataset
 
-For feedback, business inquiries, or collaborations:
+Deployment
+The project is deployed on Vercel, enabling high performance with zero configuration.
 
-[✉️ Contact Me](mailto:contact@sujandas.info) | [🌐 Visit Website](https://www.sujandas.info)
+License
+This project is licensed under the MIT License.
 
----
+Contact
+For feedback, suggestions, or professional collaboration:
 
-## 📄 License
+📬 Email: contact@sujandas.info
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+🌐 Website: www.sujandas.info
 
----
+Developer
+Built with focus, clarity, and passion by Sujan Das
 
-<h3 align="center" style="font-style: italic; font-weight: normal; margin-top: 2rem;">
-  🧠 Built with clean code, smart logic, and way too much coffee ☕ by  
-  <a href="https://www.sujandas.info" target="_blank" rel="noopener noreferrer"><strong>Sujan Das</strong></a>
-</h3>
-
-<hr style="border: none; height: 1px; background: linear-gradient(to right, #ff416c, #0077b5);" />
-
-<p align="center">
-  <a href="https://github.com/devsujandas" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" height="35" alt="GitHub" />
-  </a>
-  <a href="https://leetcode.com/devsujandas" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=FFA116" height="35" alt="LeetCode" />
-  </a>
-  <a href="https://x.com/devsujandas" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" height="35" alt="X" />
-  </a>
-  <a href="https://in.linkedin.com/in/devsujandas" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" />
-  </a>
-</p>
-
+<p align="center"> <a href="https://github.com/devsujandas" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" height="35" alt="GitHub" /> </a> <a href="https://leetcode.com/devsujandas" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=FFA116" height="35" alt="LeetCode" /> </a> <a href="https://x.com/devsujandas" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" height="35" alt="X" /> </a> <a href="https://in.linkedin.com/in/devsujandas" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" /> </a> </p>

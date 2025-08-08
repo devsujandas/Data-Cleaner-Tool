@@ -32,7 +32,7 @@ Whether you're a student, data scientist, analyst, or business user — this app
 - ✅ **Live Preview** — view raw and cleaned data before downloading  
 - ✅ **Export Options** — download cleaned dataset in preferred format  
 - ✅ **Responsive UI** — perfect on mobile, tablet, and desktop  
-- ✅ **Dark & Light Themes** — based on system preference  
+  
 
 ---
 
